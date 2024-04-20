@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, Helvetica, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 2;
+    padding: 0;
+    background-color: #333333;
+    flex-direction: column;
+    color: #fff;
+    transition: background-color 0.5s ease;
+}
+
+/* Resto del código CSS permanece igual */
+
+
+header {
+    background-color: #1E1E1E; /* Gris oscuro */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    transition: background-color 0.5s ease;
+}
+
+
+nav {
+    background-color: #1E1E1E; /* Gris oscuro */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 10px;
+}
+
+section {
+    padding: 30px;
+    background-color: #333333; /* Color de fondo de las secciones */
+    margin: 20px 0;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.subtema {
+    font-size: 1em;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.subtema input[type=text] {
+    font-size: 1em; /* Cambia el tamaño del texto del cuadro de texto */
+    padding: 5px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.botones-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.botones-grid button {
+    padding: 20px; /* Aumenta el padding para hacer los botones más grandes */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #1E1E1E; /* Gris oscuro */
+    color: #fff; /* Color de texto */
+}
+
+.botones-grid button:hover {
+    background-color: #FFB6C1; /* Rosa pastel en hover */
+    color: #333; /* Cambio de color de texto en hover */
+    
+}
+
+.loader-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+}
+.TemasdeClase{
+    text-align: center;
+    margin-bottom: 60px;
+    background-color: #333333;
+}
+
+#introduction{
+    margin: 5px; /* Cambia los márgenes según lo necesites */
+    padding: 10px; /* Agrega un espacio interno */
+    background-color: #333333; /* Cambia el color de fondo */
+    text-align: center, justify;
+    max-width: 999px; /* Define un ancho máximo para el contenedor */
+}
+
+footer {
+    background-color: #1E1E1E; /* Gris oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 10px;
+}
+
